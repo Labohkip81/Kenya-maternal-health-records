@@ -1,0 +1,5 @@
+[run]
+include = maternal_records/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
